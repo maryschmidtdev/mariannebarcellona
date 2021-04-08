@@ -2,42 +2,54 @@ body {
   background-color: #555;
   color: white;
   text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h1 {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: lighter;
   font-size: 50px;
   padding: 60px 0 40px 0;
   letter-spacing: 5px;
 }
 
-a:link {
-  color: white;
-  font-size: 20px;
-}
-
-a:hover {
-  color: blue;
-}
-
+a:link,
 a:visited {
-  color: black;
+  color: #ffffff;
+  text-decoration: none;
+}
+a:hover,
+a:active {
+  color: #cc0000;
+  text-decoration: underline;
 }
 
-.art .photography {
+section {
   display: flexbox;
   flex-direction: column;
   align-content: center;
-  padding: 20px;
-}
-
-.photography {
-  padding-top: 20px;
+  padding-bottom: 5rem;
 }
 
 footer {
   padding-top: 30px;
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background-color: #555;
+  width: 100%;
+}
+
+.footer-icons-container {
+  display: flex;
+  justify-content: space-between;
+  width: 50px;
+}
+
+.footer-icon {
+  width: 20px;
 }
