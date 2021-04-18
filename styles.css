@@ -19,6 +19,7 @@ h1 {
 h2 {
   margin: auto;
   margin-bottom: 0.5rem;
+  letter-spacing: 2px;
 }
 
 p {
@@ -38,48 +39,52 @@ a:active {
 }
 
 section {
-  display: flexbox;
+  display: flex;
   flex-direction: column;
   align-content: center;
   margin-bottom: 2rem;
 }
 
-footer {
+/* footer {
   padding-top: 25px;
-  text-align: center;
+
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+
   position: fixed;
   left: 0;
   bottom: 0;
   background-color: #555;
   width: 100%;
-}
+} */
 
-.footer-icons-container {
+.icons-container {
+  margin-top: 0.5rem;
+  margin-left: 48%;
   display: flex;
+  flex-direction: row;
+  align-items: center;
   justify-content: space-between;
   width: 50px;
 }
 
-.footer-icon {
+.icon {
   width: 20px;
 }
 
 #photography {
-  margin-top: 2rem;
+  margin-top: 3rem;
   margin-bottom: 8rem;
 }
 
 hr {
   border: 0;
-  height: 1px;
+  margin-left: 20%;
+  margin-right: 20%;
+  height: 3px;
   background-image: linear-gradient(
     to right,
     rgba(0, 0, 0, 0),
-    rgba(0, 0, 0, 0.5),
+    rgba(255, 255, 255, 0.5),
     rgba(0, 0, 0, 0)
   );
 }
@@ -89,6 +94,6 @@ hr {
     font-size: 50px;
   }
   #photography {
-    margin-bottom: 75px;
+    margin-bottom: 5px;
   }
 }
