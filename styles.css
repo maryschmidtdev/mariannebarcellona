@@ -59,16 +59,16 @@ section {
 
 .icons-container {
   margin-top: 0.5rem;
-  margin-left: 48%;
+
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
-  width: 50px;
+  justify-content: center;
 }
 
 .icon {
   width: 20px;
+  margin: auto 0.5rem;
 }
 
 #photography {
