@@ -45,21 +45,8 @@ section {
   margin-bottom: 2rem;
 }
 
-/* footer {
-  padding-top: 25px;
-
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  background-color: #555;
-  width: 100%;
-} */
-
 .icons-container {
   margin-top: 0.5rem;
-
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -77,23 +64,27 @@ section {
 }
 
 hr {
-  border: 0;
-  margin-left: 20%;
-  margin-right: 20%;
-  height: 3px;
-  background-image: linear-gradient(
-    to right,
-    rgba(0, 0, 0, 0),
-    rgba(255, 255, 255, 0.5),
-    rgba(0, 0, 0, 0)
-  );
+  border: 0.5px solid white;
+  width: 80%;
 }
 
+/* Desktop Styles */
+
 @media (min-width: 667px) {
+  header {
+    margin: 5rem auto 4rem auto;
+  }
   h1 {
-    font-size: 50px;
+    font-size: 4.125rem;
+  }
+  section {
+    margin-bottom: 4rem;
   }
   #photography {
+    margin-top: 4rem;
     margin-bottom: 5px;
+  }
+  hr {
+    width: 27rem;
   }
 }
